@@ -16,5 +16,24 @@ namespace Menü
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "1234")
+            {
+                Console.WriteLine("Giriş Başarılı");
+                this.Hide();
+                menü menu = new menü();
+                menu.Show();
+
+
+            }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            textBox1.UseSystemPasswordChar = true;
+        }
+
     }
 }

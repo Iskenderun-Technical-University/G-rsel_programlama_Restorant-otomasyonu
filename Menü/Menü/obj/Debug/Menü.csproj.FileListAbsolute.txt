@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\Iskenderun-Technical-University\G-rsel_programlama_Restorant-otomasyonu\Menü\Menü\bin\Debug\Menü.exe.config
+C:\Users\PC\source\repos\Iskenderun-Technical-University\G-rsel_programlama_Restorant-otomasyonu\Menü\Menü\bin\Debug\Menü.exe
+C:\Users\PC\source\repos\Iskenderun-Technical-University\G-rsel_programlama_Restorant-otomasyonu\Menü\Menü\bin\Debug\Menü.pdb
+C:\Users\PC\source\repos\Iskenderun-Technical-University\G-rsel_programlama_Restorant-otomasyonu\Menü\Menü\obj\Debug\Menü.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\Iskenderun-Technical-University\G-rsel_programlama_Restorant-otomasyonu\Menü\Menü\obj\Debug\Menü.Form1.resources
+C:\Users\PC\source\repos\Iskenderun-Technical-University\G-rsel_programlama_Restorant-otomasyonu\Menü\Menü\obj\Debug\Menü.menü.resources
+C:\Users\PC\source\repos\Iskenderun-Technical-University\G-rsel_programlama_Restorant-otomasyonu\Menü\Menü\obj\Debug\Menü.Properties.Resources.resources
+C:\Users\PC\source\repos\Iskenderun-Technical-University\G-rsel_programlama_Restorant-otomasyonu\Menü\Menü\obj\Debug\Menü.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\Iskenderun-Technical-University\G-rsel_programlama_Restorant-otomasyonu\Menü\Menü\obj\Debug\Menü.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Iskenderun-Technical-University\G-rsel_programlama_Restorant-otomasyonu\Menü\Menü\obj\Debug\Menü.exe
+C:\Users\PC\source\repos\Iskenderun-Technical-University\G-rsel_programlama_Restorant-otomasyonu\Menü\Menü\obj\Debug\Menü.pdb
