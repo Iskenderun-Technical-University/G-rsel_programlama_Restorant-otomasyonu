@@ -9,3 +9,15 @@ C:\Users\PC\source\repos\Iskenderun-Technical-University\G-rsel_programlama_Rest
 C:\Users\PC\source\repos\Iskenderun-Technical-University\G-rsel_programlama_Restorant-otomasyonu\Menü\Menü\obj\Debug\Menü.csproj.CoreCompileInputs.cache
 C:\Users\PC\source\repos\Iskenderun-Technical-University\G-rsel_programlama_Restorant-otomasyonu\Menü\Menü\obj\Debug\Menü.exe
 C:\Users\PC\source\repos\Iskenderun-Technical-University\G-rsel_programlama_Restorant-otomasyonu\Menü\Menü\obj\Debug\Menü.pdb
+C:\Users\Admin\Source\Repos\Iskenderun-Technical-University\G-rsel_programlama_Restorant-otomasyonu\Menü\Menü\bin\Debug\Menü.exe.config
+C:\Users\Admin\Source\Repos\Iskenderun-Technical-University\G-rsel_programlama_Restorant-otomasyonu\Menü\Menü\bin\Debug\Menü.exe
+C:\Users\Admin\Source\Repos\Iskenderun-Technical-University\G-rsel_programlama_Restorant-otomasyonu\Menü\Menü\bin\Debug\Menü.pdb
+C:\Users\Admin\Source\Repos\Iskenderun-Technical-University\G-rsel_programlama_Restorant-otomasyonu\Menü\Menü\obj\Debug\Menü.csproj.AssemblyReference.cache
+C:\Users\Admin\Source\Repos\Iskenderun-Technical-University\G-rsel_programlama_Restorant-otomasyonu\Menü\Menü\obj\Debug\Menü.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Source\Repos\Iskenderun-Technical-University\G-rsel_programlama_Restorant-otomasyonu\Menü\Menü\obj\Debug\Menü.Form1.resources
+C:\Users\Admin\Source\Repos\Iskenderun-Technical-University\G-rsel_programlama_Restorant-otomasyonu\Menü\Menü\obj\Debug\Menü.menü.resources
+C:\Users\Admin\Source\Repos\Iskenderun-Technical-University\G-rsel_programlama_Restorant-otomasyonu\Menü\Menü\obj\Debug\Menü.Properties.Resources.resources
+C:\Users\Admin\Source\Repos\Iskenderun-Technical-University\G-rsel_programlama_Restorant-otomasyonu\Menü\Menü\obj\Debug\Menü.csproj.GenerateResource.cache
+C:\Users\Admin\Source\Repos\Iskenderun-Technical-University\G-rsel_programlama_Restorant-otomasyonu\Menü\Menü\obj\Debug\Menü.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Source\Repos\Iskenderun-Technical-University\G-rsel_programlama_Restorant-otomasyonu\Menü\Menü\obj\Debug\Menü.exe
+C:\Users\Admin\Source\Repos\Iskenderun-Technical-University\G-rsel_programlama_Restorant-otomasyonu\Menü\Menü\obj\Debug\Menü.pdb

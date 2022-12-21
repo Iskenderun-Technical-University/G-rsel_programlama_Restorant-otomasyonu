@@ -28,16 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem13 = new System.Windows.Forms.ListViewItem("Masa 1");
-            System.Windows.Forms.ListViewItem listViewItem14 = new System.Windows.Forms.ListViewItem("Masa 2");
-            System.Windows.Forms.ListViewItem listViewItem15 = new System.Windows.Forms.ListViewItem("Masa 3");
-            System.Windows.Forms.ListViewItem listViewItem16 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Masa 1",
+            "0"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Masa 2",
+            "0"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Masa 3",
+            "0"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
             "Tantuni",
             "30"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem17 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
             "Kebap",
             "30"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem18 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
             "Fasulye",
             "35"}, -1);
             this.button8 = new System.Windows.Forms.Button();
@@ -48,12 +54,14 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.listView1 = new System.Windows.Forms.ListView();
-            this.button2 = new System.Windows.Forms.Button();
             this.Masa = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.hesap = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.button2 = new System.Windows.Forms.Button();
             this.listView2 = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.test1 = new System.Windows.Forms.Label();
+            this.testmasa = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button8
@@ -64,6 +72,7 @@
             this.button8.TabIndex = 7;
             this.button8.Text = "Sipariş";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button3
             // 
@@ -123,13 +132,13 @@
             this.hesap});
             this.listView1.FullRowSelect = true;
             this.listView1.HideSelection = false;
-            listViewItem13.StateImageIndex = 0;
-            listViewItem14.StateImageIndex = 0;
-            listViewItem15.StateImageIndex = 0;
+            listViewItem1.StateImageIndex = 0;
+            listViewItem2.StateImageIndex = 0;
+            listViewItem3.StateImageIndex = 0;
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem13,
-            listViewItem14,
-            listViewItem15});
+            listViewItem1,
+            listViewItem2,
+            listViewItem3});
             this.listView1.Location = new System.Drawing.Point(334, 43);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(191, 349);
@@ -137,16 +146,6 @@
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
             this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(152, 43);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(97, 22);
-            this.button2.TabIndex = 24;
-            this.button2.Text = "Masa Sil";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Masa
             // 
@@ -158,6 +157,16 @@
             this.hesap.Text = "hesap";
             this.hesap.Width = 90;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(152, 43);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(97, 22);
+            this.button2.TabIndex = 24;
+            this.button2.Text = "Masa Sil";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // listView2
             // 
             this.listView2.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -165,13 +174,13 @@
             this.columnHeader2});
             this.listView2.FullRowSelect = true;
             this.listView2.HideSelection = false;
-            listViewItem16.StateImageIndex = 0;
-            listViewItem17.StateImageIndex = 0;
-            listViewItem18.StateImageIndex = 0;
+            listViewItem4.StateImageIndex = 0;
+            listViewItem5.StateImageIndex = 0;
+            listViewItem6.StateImageIndex = 0;
             this.listView2.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem16,
-            listViewItem17,
-            listViewItem18});
+            listViewItem4,
+            listViewItem5,
+            listViewItem6});
             this.listView2.Location = new System.Drawing.Point(556, 43);
             this.listView2.Name = "listView2";
             this.listView2.Size = new System.Drawing.Size(191, 349);
@@ -190,12 +199,32 @@
             this.columnHeader2.Text = "Fiyat";
             this.columnHeader2.Width = 90;
             // 
+            // test1
+            // 
+            this.test1.AutoSize = true;
+            this.test1.Location = new System.Drawing.Point(198, 256);
+            this.test1.Name = "test1";
+            this.test1.Size = new System.Drawing.Size(35, 13);
+            this.test1.TabIndex = 26;
+            this.test1.Text = "label1";
+            // 
+            // testmasa
+            // 
+            this.testmasa.AutoSize = true;
+            this.testmasa.Location = new System.Drawing.Point(198, 211);
+            this.testmasa.Name = "testmasa";
+            this.testmasa.Size = new System.Drawing.Size(35, 13);
+            this.testmasa.TabIndex = 27;
+            this.testmasa.Text = "label1";
+            // 
             // menü
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Red;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.testmasa);
+            this.Controls.Add(this.test1);
             this.Controls.Add(this.listView2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.listView1);
@@ -230,5 +259,7 @@
         public System.Windows.Forms.ListView listView2;
         public System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.Label test1;
+        private System.Windows.Forms.Label testmasa;
     }
 }
