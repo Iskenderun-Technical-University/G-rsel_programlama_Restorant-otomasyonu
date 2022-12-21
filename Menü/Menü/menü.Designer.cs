@@ -28,27 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem("Masa 1");
-            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem("Masa 2");
-            System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem("Masa 3");
-            System.Windows.Forms.ListViewItem listViewItem10 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem13 = new System.Windows.Forms.ListViewItem("Masa 1");
+            System.Windows.Forms.ListViewItem listViewItem14 = new System.Windows.Forms.ListViewItem("Masa 2");
+            System.Windows.Forms.ListViewItem listViewItem15 = new System.Windows.Forms.ListViewItem("Masa 3");
+            System.Windows.Forms.ListViewItem listViewItem16 = new System.Windows.Forms.ListViewItem(new string[] {
             "Tantuni",
             "30"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem11 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem17 = new System.Windows.Forms.ListViewItem(new string[] {
             "Kebap",
             "30"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem12 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem18 = new System.Windows.Forms.ListViewItem(new string[] {
             "Fasulye",
             "35"}, -1);
             this.button8 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.listView1 = new System.Windows.Forms.ListView();
             this.button2 = new System.Windows.Forms.Button();
             this.Masa = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -60,21 +58,12 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(21, 327);
+            this.button8.Location = new System.Drawing.Point(21, 256);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(88, 65);
             this.button8.TabIndex = 7;
             this.button8.Text = "Sipariş";
             this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(21, 185);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(88, 65);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Randevu";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -98,7 +87,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(21, 256);
+            this.button4.Location = new System.Drawing.Point(21, 185);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(88, 65);
             this.button4.TabIndex = 17;
@@ -127,13 +116,6 @@
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 20;
             // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(115, 205);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 21;
-            // 
             // listView1
             // 
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -141,13 +123,13 @@
             this.hesap});
             this.listView1.FullRowSelect = true;
             this.listView1.HideSelection = false;
-            listViewItem7.StateImageIndex = 0;
-            listViewItem8.StateImageIndex = 0;
-            listViewItem9.StateImageIndex = 0;
+            listViewItem13.StateImageIndex = 0;
+            listViewItem14.StateImageIndex = 0;
+            listViewItem15.StateImageIndex = 0;
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem7,
-            listViewItem8,
-            listViewItem9});
+            listViewItem13,
+            listViewItem14,
+            listViewItem15});
             this.listView1.Location = new System.Drawing.Point(334, 43);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(191, 349);
@@ -183,13 +165,13 @@
             this.columnHeader2});
             this.listView2.FullRowSelect = true;
             this.listView2.HideSelection = false;
-            listViewItem10.StateImageIndex = 0;
-            listViewItem11.StateImageIndex = 0;
-            listViewItem12.StateImageIndex = 0;
+            listViewItem16.StateImageIndex = 0;
+            listViewItem17.StateImageIndex = 0;
+            listViewItem18.StateImageIndex = 0;
             this.listView2.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem10,
-            listViewItem11,
-            listViewItem12});
+            listViewItem16,
+            listViewItem17,
+            listViewItem18});
             this.listView2.Location = new System.Drawing.Point(556, 43);
             this.listView2.Name = "listView2";
             this.listView2.Size = new System.Drawing.Size(191, 349);
@@ -217,14 +199,12 @@
             this.Controls.Add(this.listView2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.listView1);
-            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.button8);
             this.Name = "menü";
             this.ShowIcon = false;
@@ -237,14 +217,12 @@
 
         #endregion
         private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
         public System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.Button button2;
         public System.Windows.Forms.ColumnHeader Masa;
