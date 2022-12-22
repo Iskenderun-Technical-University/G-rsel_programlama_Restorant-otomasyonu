@@ -239,6 +239,7 @@
             this.Name = "menü";
             this.ShowIcon = false;
             this.Text = "İSTE OTOMASYON";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.menü_FormClosing);
             this.Load += new System.EventHandler(this.menü_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

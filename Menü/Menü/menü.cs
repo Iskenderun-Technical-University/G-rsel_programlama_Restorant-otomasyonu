@@ -152,5 +152,10 @@ namespace Menü
                 throw;
             }
         }
+
+        private void menü_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
