@@ -27,6 +27,12 @@ namespace Menü
 
 
         }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ListViewItem item = listView1.SelectedItems[0];
+            var checkTotal = 0;
+            item.SubItems[1].Text = checkTotal.ToString();
+        }
 
         private void button7_Click(object sender, EventArgs e)
         {
@@ -92,7 +98,7 @@ namespace Menü
                             {
                                 if (listView1.SelectedItems[y].Selected)
                                 {
-                                    total += Convert.ToInt32(listView2.SelectedItems[i].SubItems[1].Text);                                    
+                                    total = Convert.ToInt32(listView2.SelectedItems[i].SubItems[1].Text);                                    
                                 }
                             }
                         }
@@ -133,6 +139,7 @@ namespace Menü
                         }
                     }
                     item.SubItems[1].Text = checkTotal.ToString();
+                    listView2.SelectedItems.Clear();
                 }
                 else
                 {
